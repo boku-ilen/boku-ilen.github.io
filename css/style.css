@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 3.5em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -131,7 +131,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 4em 0;
   background: #333333; }
   .site-footer p {
-    color: #737373; }
+    color: #737373;
+    font-size: 0.7rem;
+  }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
     color: #fff; }
   .site-footer a {
@@ -482,7 +484,7 @@ h1, h2, h3, h4, h5, h6 {
       background: rgba(0, 0, 0, 0.4); }
   .site-blocks-cover, .site-blocks-cover .row {
     min-height: 600px;
-    height: calc(100vh); }
+    height: calc(66vh); }
   .site-blocks-cover.inner-page, .site-blocks-cover.inner-page .row {
     min-height: 600px;
     height: calc(80vh); }
@@ -1253,5 +1255,3 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ff5733 !important;
   border-color: #ff5733 !important;
   color: #fff; }
-
-/*# sourceMappingURL=style.css.map */
