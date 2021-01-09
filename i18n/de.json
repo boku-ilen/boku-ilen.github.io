@@ -1,17 +1,28 @@
 {
-  "title": "LandscapeLab! DE - ein offener Baukasten für partizipative raumbezogene Planungs- und Forschungsansätze",
-  "shorttitle": "LandscapeLab!",
-  "subtitle": "ein offener Baukasten für partizipative raumbezogene Planungs- und Forschungsansätze",
+  "title": "LandscapeLab!",
+  "headingtitle": "Landscape Lab!",
+  "subtitle": "Ein offener Baukasten für die Entwicklung von spielebasierten Tools für partizipative Planung.",
   "menu": {
     "home": "Home",
-    "overview": "Überblick",
-    "features": "Features"
+    "overview": "LandscapeLab!",
+    "overview-items": {
+      "team": "Team",
+      "function": "Funktionsweise",
+      "videos": "Videos",
+      "faq": "FAQ"
+    },
+    "background": "Projekthintergrund ReTour",
+    "research": "Forschung",
+    "publications": "Publikationen",
+    "contact": "Kontakt"
   },
   "overview": {
     "hl-gaming": "Serious-Gaming Ansatz",
-    "gaming": "Wenn das Leben, Claude Chabrol folgend, ein Spiel ist, dann sollte Planung es auch sein. Mit dem LandscapeLab! kann auf Basis von Geodaten ein räumliches Planspiel entwickelt werden. Die Spiellogik kann dabei aus Ausschluss- und Potenzialflächen bestehen die entsprechend auf die Erreichung des Spielziels einwirken. Die Spieler*innen können das zu erreichende Spielziel am Spielbrett verfolgen.",
+    "gaming": "Wenn das Leben, <a href=\"https://fr.wikipedia.org/wiki/Rien_ne_va_plus_(film,_1997)\" target=\"_blank\">Claude Chabrol folgend</a> folgend, ein Spiel ist, dann sollte Planung es auch sein. Mit dem LandscapeLab! kann auf Basis von Geodaten ein räumliches Planspiel entwickelt werden. Die Spiellogik kann dabei aus Ausschluss- und Potenzialflächen bestehen die entsprechend auf die Erreichung des Spielziels einwirken. Die Spieler*innen können das zu erreichende Spielziel am Spielbrett verfolgen.",
+    
     "hl-mmi": "Mensch-Maschine Interaktion",
     "mmi": "Wie bedient eine Gruppe einen Computer mit einer Tastatur und einer Maus? Wir meinen, am besten gar nicht. Daher nutzt des LandscapeLab! einfache Spielsteine die auf dem Spielbrett gesetzt werden und mithilfe von Objekterkennung in entsprechende Computeraktionen übersetzt werden. Diese Handlungen sind gruppendynamische und physisch-haptische Prozesse, die interaktionsfördernd statt -hemmend sind.",
+    
     "hl-vr": "Virtual Reality Assessment",
     "vr": "Planung adressiert Zukünftiges und dass Bild davon erscheint oft diffus und unklar. Um dieses Bild von Zukunft etwas zu schärfen nutzen wir GIS-basierte interaktive 3D-Visualisierungen mit Virtual Reality um die visuellen Auswirkungen eines Planungsvorhabens möglichst umfassend darzustellen."
   }
