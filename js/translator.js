@@ -121,8 +121,8 @@ class Translator {
     get defaultConfig() {
         return {
             persist: false,
-            languages: ["en"],
-            defaultLanguage: "",
+            languages: ["en", "de"],
+            defaultLanguage: "en",
             detectLanguage: true,
             filesLocation: "/i18n",
         };
