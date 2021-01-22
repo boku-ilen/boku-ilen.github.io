@@ -1,29 +1,167 @@
 {
-  "title": "LandscapeLab!",
-  "headingtitle": "Landscape Lab!",
-  "subtitle": "Ein offener Baukasten für die Entwicklung von spielebasierten Tools für partizipative Planung.",
-  "menu": {
-    "home": "Home",
-    "overview": "LandscapeLab!",
-    "overview-items": {
-      "team": "Team",
-      "function": "Funktionsweise",
-      "videos": "Videos",
-      "faq": "FAQ"
+    "title": "LandscapeLab!",
+    "headingtitle": "Landscape Lab!",
+    "subtitle": "Ein offener Baukasten für die Entwicklung von spielebasierten Tools für partizipative Planung.",
+    "menu": {
+        "home": "Home",
+        "overview": "LandscapeLab!",
+        "overview-items": {
+            "team": "Team",
+            "function": "Funktionsweise",
+            "videos": "Videos",
+            "faq": "FAQ"
+        },
+        "background": "Projekthintergrund ReTour",
+        "research": "Forschung",
+        "publications": "Publikationen",
+        "contact": "Kontakt"
     },
-    "background": "Projekthintergrund ReTour",
-    "research": "Forschung",
-    "publications": "Publikationen",
-    "contact": "Kontakt"
-  },
-  "overview": {
-    "hl-gaming": "Serious-Gaming Ansatz",
-    "gaming": "Wenn das Leben, <a href=\"https://fr.wikipedia.org/wiki/Rien_ne_va_plus_(film,_1997)\" target=\"_blank\">Claude Chabrol folgend</a> folgend, ein Spiel ist, dann sollte Planung es auch sein. Mit dem LandscapeLab! kann auf Basis von Geodaten ein räumliches Planspiel entwickelt werden. Die Spiellogik kann dabei aus Ausschluss- und Potenzialflächen bestehen die entsprechend auf die Erreichung des Spielziels einwirken. Die Spieler*innen können das zu erreichende Spielziel am Spielbrett verfolgen.",
-    
-    "hl-mmi": "Mensch-Maschine Interaktion",
-    "mmi": "Wie bedient eine Gruppe einen Computer mit einer Tastatur und einer Maus? Wir meinen, am besten gar nicht. Daher nutzt des LandscapeLab! einfache Spielsteine die auf dem Spielbrett gesetzt werden und mithilfe von Objekterkennung in entsprechende Computeraktionen übersetzt werden. Diese Handlungen sind gruppendynamische und physisch-haptische Prozesse, die interaktionsfördernd statt -hemmend sind.",
-    
-    "hl-vr": "Virtual Reality Assessment",
-    "vr": "Planung adressiert Zukünftiges und dass Bild davon erscheint oft diffus und unklar. Um dieses Bild von Zukunft etwas zu schärfen nutzen wir GIS-basierte interaktive 3D-Visualisierungen mit Virtual Reality um die visuellen Auswirkungen eines Planungsvorhabens möglichst umfassend darzustellen."
-  }
+    "overview": {
+        "hl-gaming": "Serious-Gaming Ansatz",
+        "gaming": "Wenn das Leben, <a href=\"https://fr.wikipedia.org/wiki/Rien_ne_va_plus_(film,_1997)\" target=\"_blank\">Claude Chabrol folgend</a> folgend, ein Spiel ist, dann sollte Planung es auch sein. Mit dem LandscapeLab! kann auf Basis von Geodaten ein räumliches Planspiel entwickelt werden. Die Spiellogik kann dabei aus Ausschluss- und Potenzialflächen bestehen die entsprechend auf die Erreichung des Spielziels einwirken. Die Spieler*innen können das zu erreichende Spielziel am Spielbrett verfolgen.",
+        
+        "hl-mmi": "Mensch-Maschine Interaktion",
+        "mmi": "Wie bedient eine Gruppe einen Computer mit einer Tastatur und einer Maus? Wir meinen, am besten gar nicht. Daher nutzt des LandscapeLab! einfache Spielsteine die auf dem Spielbrett gesetzt werden und mithilfe von Objekterkennung in entsprechende Computeraktionen übersetzt werden. Diese Handlungen sind gruppendynamische und physisch-haptische Prozesse, die interaktionsfördernd statt -hemmend sind.",
+        
+        "hl-vr": "Virtual Reality Assessment",
+        "vr": "Planung adressiert Zukünftiges und dass Bild davon erscheint oft diffus und unklar. Um dieses Bild von Zukunft etwas zu schärfen nutzen wir GIS-basierte interaktive 3D-Visualisierungen mit Virtual Reality um die visuellen Auswirkungen eines Planungsvorhabens möglichst umfassend darzustellen."
+    },
+    "summary": {
+        "h3-summary": "Auf einen Blick",
+        "summary": "Das LandscapeLab! ist ein Baukasten für partizipative Planungs- und Forschungsansätze mit einem Schwerpunkt auf den Ausbau erneuerbarer Energie das im Rahmen des interdisziplinären Forschungsprojekts ReTour: <a href=\"https://retour.aau.at/\">Soziale Akzeptanz zukünftiger Photovoltaik- und Windenergie-Szenarios in österreichischen Tourismusregionen</a> entwickelt wurde. Auf Basis freier Daten und offener Software können <b>partizipative Plannungsvorhaben</b> in Gruppen umgesetzt werden.",
+        
+        "h6-build": "Build!",
+        "build": "Durch eine neue Mensch-Maschine-Schnittstelle basierend auf einer bild-basierten Objekterkennung von einfachen Bausteinen, können größere Gruppen in einen computer-gestützten Planungsprozess eingebunden werden.",
+        
+        "h6-play": "Play!",
+        "play": "Ein spiel-basierter Ansatz erlaubt die Integration von Planungsregeln, Zufallsfaktoren, etc. um verschiedenen Aspekte von Planungsszenarien zu vergleichen und Auswirkungen abschätzen zu können.",
+        
+        "h6-view": "View!",
+        "view": "Planungsvarianten können in Echtzeit mit Virtual Reality-Brillen als detaillierte 3D Visualisierungen betrachtet werden.",
+    },
+    "team": {
+        "h2-team": "Team",
+        "team": "Basierend auf einem wissenschaftlichen Ansatz zur Integration von Laien in Planungsprozesse, wurde das LandscapeLab! an der Universität für Bodenkultur Wien, gemeinsam mit EntwicklerInnen der FH Technikum Wien und der TU Wien umgesetzt.",
+        
+        "h2-tom": "Thomas Schauppenlehner, Dipl.-Ing. Dr.",
+        "sub-tom": "Projektleitung LandscapeLab! und wissenschaftliche Begleitung",
+        "tom": "Landschaftsplaner und Wissenschaftler im Themenfeld erneuerbare Energie, soziale Akzeptanz, Partizipation und Wissenstransfer",
+        
+        "h2-chris": "Christoph Graf, B.Sc. Mag.(FH)",
+        "sub-chris": "Lead Developer, technisches Management",
+        "chris": "Softwareentwickler mit Fokus auf (Geo-)Data Science",
+        
+        "h2-karl": "Karl Bittner, BSc.",
+        "sub-karl": "Entwickler",
+        "karl": "Softwareentwickler mit Fokus auf Grafikprogrammierung und VR, insbesondere mit Open Source-Tools",
+        
+        "h2-mat": "Mathias Baumgartinger-Seiringer, BSc.",
+        "sub-mat": "Entwickler",
+        "mat": "Softwareentwickler mit Fokus auf 3D Modelling, Gameplay Entwicklung, 3D/VR GIS, VR-Development",
+        
+        "h2-barb": "Barbara Latosinska, BSc. MSc.",
+        "sub-barb": "Entwicklerin",
+        "barb": "Softwareentwicklerin mit Fokus auf Objekterkennung, Machine Learning, Prototyping",
+        
+        "h2-mor": "Moritz Roth",
+        "sub-mor": "Entwickler",
+        "mor": "Softwareentwickler mit Fokus auf Objekterkennung, Interface Design und generische 3D Modellierung",
+        
+        "more": "Das interdisziplinäre Wissenschafts-Team dahinter hat in einem interaktiven Prozess hinsichtlich der Definition von Spiellogik und Spielablauf wesentlich zur Entwicklung beigetragen:",
+        "more-members": "Von links nach rechts: Patrick Scherhaufer (BOKU), Christian Mikovits (BOKU), Thomas Schauppenleher (BOKU), Christoph Graf (BOKU), Mathias Baumgartinger-Seiringer (FH Technikum Wien), Robert Sposato (Universität Klagenfurt), Karl Bittner (FH Technikum Wien), Isabell Lehnertz (Universität Klagenfurt), Barbara Latosinska (FH Technikum Wien), Lilia Schmalzl (Universität Klagenfurt).<br> Nicht im Bild: Konstantin Lux (BOKU)"
+    },
+    "functionality": {
+        "h2-functionality": "Funktionsweise",
+        
+        "h5-table": "Spieltisch",
+        "table": "Der interaktive Spieltisch nutzt ein neu entwickeltes Mensch-Maschine-Interface (MMI), um ohne störende Computer-Bediehung in Gruppen planen, diskutieren und arbeiten zu können. Im Zentrum steht dabei eine interaktive GIS-Karte, die hinsichtlich Ausschnitt und Maßstab interaktiv angepasst werden kann, und auf der entsprechende Planungsobjekte als Spielsteine platziert werden können. Lage, Form und Farbe der Spielsteine werden von einer Kamera erfasst und im Zuge eines Objekterkennungsverfahrens mithilfe von OpenCV ausgewertet und in entsprechende Computer-Aktionen übersetzt. Auf diese Art und Weise lassen sich basierend auf räumlichen Daten verschiedene Spielabläufe und Planungsprozesse in Gruppen realisieren.",
+        
+        "h5-environment": "3D Umgebung",
+        "environment": " Das LandscapeLab ist eine Real-Time 3D-Visualisierung, die <a href=\"http://gispoint.de/fileadmin/user_upload/paper_gis_open/AGIT_2019/537669016.pdf\">Open Data</a> in gängigen Formaten in Echtzeit importieren und mithilfe der freien Godot Engine rendern kann. Die Spielerposition und Objekte können über eine einfache REST-Schnittstelle übergeben werden, also zum Beispiel vom interaktiven Spieltisch kommen.<br>Aber auch die Visualisierung allein ist ein mächtiges Tool. In unterschiedlichen Ansichten kann am Bildschirm die Landschaft beobachtet und verändert werden. Dabei kann jederzeit in die VR-Ansicht gewechselt werden, um direkt in die Landschaft einzutauchen.<br>Darüber hinaus wurden auch VR-GIS Funktionalitäten integriert. Damit sind nicht nur Visualisierungen, sondern auch Analysen und Interaktionen im 3D-VR-Tool möglich. Planerinnen und Planer können in der virtuellen Umgebung unterschiedliche Werkzeuge verwenden, um die Landschaft zu beobachten - beispielsweise auszumessen - oder zu verändern",
+        
+        "h-a-table": "<a href=\"#\">Spieltisch</a>",
+        "a-table": "Schematischer Aufbau des Spieltisches mit Beamer und Webcam auf einer Tripod-Montage",
+        
+        "h-a-or": "<a href=\"#\">Objekterkennung</a>",
+        "a-or": "Schrittweiser Ablauf der Objekterkennung mit OpenCV",
+        
+        "h-a-tripod": "<a href=\"#\">Tripod Aufbau</a>",
+        "a-tripod": "Montage des Beamers und der Kamera in einer Fallstudienregion"
+    },
+    "videos": {
+        "h2-videos": "Videos",
+        "videos": "Nachfolgend können Sie anhand von drei kurzen Videos einen kurzen Einblick in die verschiedenen Komponenten des LandscapeLab! gewinnen.",
+        
+        "h-a-introduction": "<a href=\"#\">1. Einführung in das LandscapeLab!</a>",
+        "a-introduction": "Ein kurzer Überblick über die zentralen Funktionen des LandscapeLab!",
+        
+        "h-a-bp": "<a href=\"#\">2. BUILD & PLAY: Der interaktive Spieltisch</a>",
+        "a-bp": "Erläuterung des technischen Aufbaus und der Funktionsweise des Spieltisches und eine Spielablaufes",
+        
+        "h-a-view": "<a href=\"#\">3. VIEW: Die GIS-basierte interaktive 3D Umgebung</a>",
+        "a-view": "Demonstration der 3D- und VR-Funktionalitäten des LandscapeLab!"
+    },
+    "faq": {
+        "h2-faq": "Frequently Ask Questions",
+        
+        "toggle-own-project": "<a href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Kann ich das LandscapeLab! auch in eigenen Projekten einsetzen?</a>",
+        "own-project": "Grundsätzlich ja. Das LandscapeLab! ist frei verfügbar und kann via <a href=\"https://github.com/boku-ilen\">GitHub</a> heruntergeladen werden.<br><br>Aus einem Forschungsprojekt kommend ist es aber ein Prototyp der gegebenfalls noch Korrekturen, Anpassungen und Erweiterungen benötigt. Wenn sie Interesse haben, nehmen Sie am besten mit uns <a href=\"#contact-section\">Kontakt</a> auf.",
+        
+        "toggle-system-specifications": "<a href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Welche Hardware und Systemvoraussetzungen sind nötig?</a>",
+        "system-specifications": "Abhängig von den jeweilig benötigten Komponenten gibt es unterschiedliche Hardwareanforderungen. Der interaktive Spieltisch sowie die Godot 3D-Engine können unabhängig voneinander betrieben werden.<br><br> Für den Spieltisch ist neben einer Deckenmontage ein PC, ein HD-Beamer sowie eine HD-Webcam (Das LandscapeLab! wurde mit einer Intel Realsense Kamera entwickelt) nötig. Für die Visualisierungskomponente ist eine leistungsstarker Gaming PC mit entsprechender Grafikkarte. Für die Virtual Reality Komponenten ist weiters ein VR-Headset (<a href=\"www.oculus.com/\">Oculus Rift</a> oder <a href=\"https://www.valvesoftware.com/de/index/headset\">Valve Index</a>) nötig.",
+        
+        "toggle-software": "<a href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\"></a>",
+        "software": "<p>Das LandscapeLab! nutzt verschiedene Open Source Komponenten für den Aufbau der Programm Funktionalitäten.</p><ul><li>Die Geodaten für das Spielbrett werden mit <a href=\"https://www.qgis.org/de/site/\" target=\"_blank\">QGIS</a> aufbereitet und als Stream an den Beamer gesendet.</li><li>Die Objekterkennung der Spielsteine wird mit <a href=\"https://opencv.org/\" target=\"_blank\">OpenCV</a> und Python realisiert.</li><li>Die 3D-Umgebung wird mit der freien Game Engine <a href=\"https://godotengine.org/\" target=\"_blank\">Godot</a> dargestellt.</li><li>Die Basisdaten kommen aus einer <a href=\"https://postgis.net/\" target=\"_blank\">PostGIS-Datenbank</a> oder einem Geopackage. Einzelne Dateien wie Shapefiles oder GeoTIFFs können zusätzlich geladen werden.</li><li>Für den Datenimport, Projektionen und Konvertierungen kommt <a href=\"https://gdal.org/\" target=\"_blank\">GDAL</a> zur Anwendung.</li><li>Ein eigenes C++-Plugin bietet eine Schnittstelle zwischen GDAL und Godot.</li></ul>"
+    },
+    "background": {
+        "h2-background": "Projekthintergrund",
+        "background": "Das interdisziplinäre Forschungsprojekt <a href=\"https://retour.aau.at/\" target=\"_blank\"><i>ReTour: Soziale Akzeptanz zukünftiger Photovoltaik- und Windenergie-Szenarios in österreichischen Tourismusregionen</i></a> bildet den Hintergrund, im Rahmen dessen das LandscapeLab! entwickelt wurde. ReTour ist ein inter- und transdisziplinäres Forschungsprojekt, welches die soziale Akzeptanz zukünftiger Ausbauszenarien erneuerbarer Energien in ausgewählten Tourismusregionen untersucht. In Zusammenarbeit mit einer beratenden Stakeholder-Gruppe wird ein Methodenmix aus räumlich expliziter Modellierung , Fokusgruppen, Conjoint-Analyse, Visualisierungsstudien und Virtual-Reality Anwendungen verwendet. Ergebnisse und Methoden werden zu effizienteren Planungsprozessen beitragen, die soziale Akzeptanz fördern und letztlich dazu beitragen, den Anteil erneuerbarer Energien zu maximieren.<br><br>Im Rahmen des Projekts wurde das LandscapeLab! bereits erfolgreich mit unterschiedlichen Gruppen von Stakeholdern und Entscheidungstragenden getestet. Zudem setzen wir das LandscapeLab! auch an drei verschiedenen Schulstandorten in Österreich ein.",
+        
+        "h4-team": "Das interdisziplinäre Projektteam"
+    },
+    "research": {
+        "h2-research": "Das LandscapeLab! in der Forschung",
+        "research-p": "Das LandscapeLab! wurde im Rahmen eines Forschungsprojekts mit dem Ziel entwickelt, methodische Ansätze für die partizipative Arbeit in Gruppen zu entwerfen und zu untersuchen. Dazu wurden bekannte Ansätze wie die Nadelmethode, Serious Games oder Visualisierungstechniken kombiniert und mithilfe computergestützter Technologie umgesetzt. Die zentralen Forschungsfragen die sich dabei ergeben sind:",
+        "research-ul": "<ul><li>Wie können Planungsprozesse in Gruppen von Computertechnologie unterstützt werden?</li><li>Welchen Einfluss hat die Form der Eingabemöglichkeiten auf den Gruppenprozess?</li>  <li>Welches Potenzial haben freie Geodaten für den Wissenstransfer und den AUfbau komplexer 3D Visualisierungen?</li>  <li>Bieten Virtual Reality Ansätze einen Mehrwert für den Wissentransfer?</li><li>Welches Potenzial besitzt Virtual Reality GIS?</li></ul><br>Nachfolgend finden sie einige Aspekte und Themen die wir ihm Rahmen der Forschung entwickeln und untersuchen:",
+        
+        "h-a-or": "<a href=\"#\">Objekterkennung am Spielbrett</a>",
+        "a-or": "Spielsteine, OpenCV",
+        
+        "h-a-setup": "<a href=\"#\">Workshop Setup</a>",
+        "a-setup": "Das Spielbrett und die 3D Umgebung am Beamer",
+        
+        "h-a-vr": "<a href=\"#\">Virtual Reality</a>",
+        "a-vr": "VR-Erfahrung mit Oculus Rift Brillen",
+        
+        "h-a-vrtools": "<a href=\"#\">Virtual Reality Tools</a>",
+        "a-vrtools": "Kompass und Distanzmesser als Werkzeuge in der VR Umgebnung",
+        
+        "h-a-vrmap": "<a href=\"#\">Virtual Reality Map</a>",
+        "a-vrmap": "Video zur Demonstration der Kartenorientierung im VR-GIS",
+        
+        "h-a-vrgis": "<a href=\"#\">VR-GIS Viewshed</a>",
+        "a-vrgis": "Echtzeit Viewshed-Analyse basierend auf einer Shadowmap",
+        
+        "h-a-interaction": "<a href=\"#\">Interaktion mit dem Modell</a>",
+        "a-interaction": "Die Verbindung zwischen den Spielsteinen am Spielbrett und dem 3D Modell.",
+        
+        "h-a-vrpanorama": "<a href=\"#\">VR Ausschnitt</a>",
+        "a-vrpanorama": "Ausschnitt aus einer VR Ansicht mit Windeffekten zur Animation der Vegetation",
+        
+        "h-a-vrview": "<a href=\"#\">VR-Betrachtung</a>",
+        "a-vrview": "Die VR-Brille zeigt ein voll-sphärisches Panorama von einem beliebigen Standort aus. Mit Teleportation kann der Standort im Modell oder mit einem Spielstein verändert werden."
+    },
+    "publications": {
+        "h2-publications": "Publikationen",
+        "h3-bachelor": "Bachelorarbeiten"
+    },
+    "acknowledgements": {
+        "h3-acknowledgements": "Acknowledgement",
+        "acknowledgements": "Das LandscapeLab! Teil des Projektes <a href=\"https://retour.aau.at/\" target=\"_blank\">ReTour – Soziale Akzeptanz zukünftiger Photovoltaik- und Windenergieszenarien in österreichischen Tourismusregionen</a> und wird vom Österreichischen <a href=\"https://www.klimafonds.gv.at/\" target=\"_blank\">Klima- und Energiefonds</a> im Rahmen des Austrian Climate Research Program (ACRP) gefördert (Projekt: KR17AC0K13808). Das Projekt ReTour wird von Dr. Robert Sposato (Abteilung für Nachhaltiges Energiemanagement) von der <a href=\"https://www.aau.at/\" target=\"_blank\">Alpen-Adria-Universität Klagenfurt</a> geleitet."
+    },
+    "contact": {
+        "h3-contact": "Kontakt & Impressum",
+        "boku": "<a href=\"http://www.boku.ac.at/\" target=\"_blank\">Universität für Bodenkultur, Wien</a>",
+        "ilen": "<a href=\"http://ilen.boku.ac.at/\" target=\"_blank\">Institut für Landschaftsentwicklung, Erholungs- und Naturschutzplanung</a>"
+    }
 }
